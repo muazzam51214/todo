@@ -12,7 +12,8 @@ const TodoForm = () => {
       todo,
       completed : false
     })
-    setTodo(todo)
+    setTodo(todo);
+    setTodo("")
 
   }
   return (
